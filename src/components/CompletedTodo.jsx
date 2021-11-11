@@ -12,7 +12,7 @@ function CompletedTodo() {
     })
     return (
         <div className="completed">
-            <span>Completed ({completed.length})</span>
+            <span>Completed ({completed?.length})</span>
             {
                 todos?.map((item, i) => {
                     if (item.completed === "true") {
