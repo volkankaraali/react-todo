@@ -24,8 +24,17 @@ $tablet:768px;
     max-height: max-content;
     display: flex;
     //flex-direction: row;
+    .divider{
+        display: none;
+    }
     @media screen and (max-width:$large){
         flex-direction: column;
+        .divider{
+            display: block;
+            width: 100%;
+        }
     }
     
+    
 }
+

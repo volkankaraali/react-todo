@@ -14,7 +14,9 @@ function App() {
       <div className="main container">
 
         <ActiveTodo />
+        <hr className="divider" />
         <OngoingTodo />
+        <hr className="divider" />
         <CompletedTodo />
 
       </div>
