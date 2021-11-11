@@ -1,13 +1,10 @@
 {
-  "homepage": "https://volkankaraali.github.io/react-todo/",
-  "name": "chat-app",
+  "name": "todo-app",
   "version": "0.1.0",
-  "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.15.0",
     "@testing-library/react": "^11.2.7",
     "@testing-library/user-event": "^12.8.3",
-    "gh-pages": "^3.2.3",
     "nanoid": "^3.1.30",
     "node-sass": "^6.0.1",
     "react": "^17.0.2",
@@ -17,8 +14,6 @@
     "web-vitals": "^1.1.2"
   },
   "scripts": {
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
