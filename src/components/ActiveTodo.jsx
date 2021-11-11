@@ -5,7 +5,7 @@ function ActiveTodo() {
 
     const { todos, deleteTodo, toOngoingTodo } = useTodo();
 
-    let active=todos.filter(item=>{
+    let active=todos?.filter(item=>{
         if (item.completed==="false") {
             return item
         }else return false

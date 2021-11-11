@@ -5,7 +5,7 @@ function CompletedTodo() {
     const { todos, toOngoingTodo, deleteTodo } = useTodo();
     //console.log(todos);
 
-    let completed=todos.filter(item=>{
+    let completed=todos?.filter(item=>{
         if (item.completed==="true") {
             return item
         }else return false

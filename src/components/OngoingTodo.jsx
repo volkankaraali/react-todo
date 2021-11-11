@@ -5,7 +5,7 @@ function OngoingTodo() {
     const { todos, deleteTodo, toActiveTodo, toCompleted } = useTodo();
 
 
-    let ongoing=todos.filter(item=>{
+    let ongoing=todos?.filter(item=>{
         if (item.completed==="ongoing") {
             return item
         }else return false
