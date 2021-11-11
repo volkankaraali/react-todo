@@ -10,6 +10,7 @@ function App() {
   return (
 
     <TodoProvider>
+      <div className="github"> <a href="https://github.com/volkankaraali" target="_blank">github.com/volkankaraali</a> </div>
       <TodoForm />
       <div className="main container">
 
