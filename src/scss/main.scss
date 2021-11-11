@@ -1,0 +1,31 @@
+@import "_activeTodo";
+@import "_completedTodo";
+@import "_ongoingTodo";
+@import "_todoForm";
+
+
+$bg-dark:rgb(67, 71, 71);
+
+$small:320px;
+$medium:375px;
+$large:425px;
+$tablet:768px;
+
+
+.container{
+    padding: 0px 4rem;
+    @media screen and (max-width:$large){
+        padding: 0px;
+    }
+}
+
+.main{
+    
+    max-height: max-content;
+    display: flex;
+    //flex-direction: row;
+    @media screen and (max-width:$large){
+        flex-direction: column;
+    }
+    
+}

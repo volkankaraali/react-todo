@@ -1,0 +1,30 @@
+.todoForm{
+    display: flex;
+    justify-content: center;
+    margin-top: 6rem;
+    margin-bottom:2rem ;
+
+    input{
+        height: 1.5rem;
+        border: 2px solid #e76f51;
+        padding: 0px 10px;
+        border-radius: 5px;
+        
+    }
+
+    .btn-form{
+        margin-left: 5px;
+        padding: 0px 10px;
+        height: 1.7rem;
+        border: 2px solid #e76f51;
+        border-radius: 5px;
+        background-color: white;
+        font-weight: bold;
+        cursor: pointer;
+        &:hover{
+            background-color: #264653;
+            color: white;
+            border-color: #264653;
+        }
+    }
+}

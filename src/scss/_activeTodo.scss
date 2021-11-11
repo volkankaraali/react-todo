@@ -1,0 +1,64 @@
+$bg-activeItem:#264653;
+$bg-ongoingItem:#f4a261;
+.active{
+    
+    width: 100%;
+    padding: 0px 5px;
+    
+    span{
+        display: flex;
+        justify-content: center;
+        font-size: 1.2rem;
+        color: $bg-activeItem;
+        font-weight: bold;
+    }
+    .txtTitle{
+        margin: auto 4px;
+        font-size: 1rem;
+        color: white;
+        overflow: auto;
+        max-width: 500px;
+        max-height: 500px;
+    }
+
+    .active-item{
+        background-color: $bg-activeItem;
+        display: flex;
+        justify-content: space-between;
+        height: 2rem;
+        margin:5px 0px;
+        border-radius: 5px;
+        padding: 0px 5px;
+
+        .btn-group{
+            display: flex;
+            
+            button{
+                width: 100%;
+                height:1.5rem;
+                margin: auto 2px;
+                border: none;
+                border-radius: 10%;
+                cursor: pointer;
+            }
+
+            .btnDelete{
+                background-color: red;
+                .delete-icon{
+                    padding-top: 2px;
+                    color: white;
+                }
+            }
+            .btnOngoing{
+                background-color: $bg-ongoingItem;
+                .next-icon{
+                    font-weight: bold;
+                    font-size: large;
+                    padding-top: 1px;
+                    color: white;
+                }
+            }
+        }
+       
+    }
+}
