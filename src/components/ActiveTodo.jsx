@@ -11,7 +11,6 @@ function ActiveTodo() {
         }else return false
     })
 
-    console.log(active);
 
     return (
         <div className="active" >

@@ -3,7 +3,6 @@ import { useTodo } from '../context/TodoContext';
 import { BsFillXCircleFill,BsArrowLeftShort} from "react-icons/bs";
 function CompletedTodo() {
     const { todos, toOngoingTodo, deleteTodo } = useTodo();
-    //console.log(todos);
 
     let completed=todos?.filter(item=>{
         if (item.completed==="true") {
