@@ -11,10 +11,11 @@ function ActiveTodo() {
         }else return false
     })
 
-    
+    console.log(active);
+
     return (
         <div className="active" >
-            <span>Active ({(active?.length===null)? 0 : active?.length }) </span>
+            <span>Active { active===undefined ? "(0)" : `(${active.length})`  } </span>
             {
 
                 todos?.map((item, i) => {

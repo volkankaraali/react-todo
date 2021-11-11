@@ -6,8 +6,11 @@ const TodoContext = createContext();
 export const TodoProvider = ({children})=>{
 
     const [todos, setTodos] = useState([])
+    
+   
     useEffect(() => {
         setTodos(JSON.parse(localStorage.getItem("todos")))
+        
     }, [])
 
 

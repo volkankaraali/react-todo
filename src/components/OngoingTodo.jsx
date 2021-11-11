@@ -13,7 +13,7 @@ function OngoingTodo() {
 
     return (
         <div className="ongoing">
-            <span>OnGoing ({ongoing?.length})</span>
+            <span>OnGoing { ongoing===undefined ? "(0)" : `(${ongoing.length})`  }</span>
             {
                 todos?.map((item, i) => {
                     if (item.completed === "ongoing") {
