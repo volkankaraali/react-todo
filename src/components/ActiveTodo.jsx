@@ -8,13 +8,13 @@ function ActiveTodo() {
     let active=todos?.filter(item=>{
         if (item.completed==="false") {
             return item
-        }else return false
+        }else return 0
     })
 
     
     return (
         <div className="active" >
-            <span>Active ({(active.length ===0)? "0" :active.length }) </span>
+            <span>Active ({active.length }) </span>
             {
 
                 todos?.map((item, i) => {
