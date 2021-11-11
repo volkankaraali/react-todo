@@ -14,7 +14,7 @@ function ActiveTodo() {
     
     return (
         <div className="active" >
-            <span>Active ({active.length && 0}) </span>
+            <span>Active ({(active.length ===0)? "0" :active.length }) </span>
             {
 
                 todos?.map((item, i) => {
