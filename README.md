@@ -1,3 +1,14 @@
+
+# live demo : [link](https://todo-appsreact.netlify.app)
+
+* app.js, TodoContext ile çevrilmiş alt componentlere bilgiler context üzerinden  sağlanmakta.
+* tasarımı scss ile yazılmıştır.
+
+
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
