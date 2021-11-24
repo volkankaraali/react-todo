@@ -2,6 +2,7 @@
 # live demo : [link](https://todo-appsreact.netlify.app)
 
 * app.js, TodoContext ile çevrilmiş alt componentlere bilgiler context üzerinden  sağlanmakta.
+* localstorage kullanılmıştır.
 * tasarımı scss ile yazılmıştır.
 
 
